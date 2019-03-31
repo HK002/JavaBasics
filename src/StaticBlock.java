@@ -6,7 +6,11 @@ public class StaticBlock {
 	}
 
 	static {
-		System.out.println("Static Block. This is executed once, when the class is loaded, even before main method is called.");
+		System.out.println("Static Block 1. This is executed once, when the class is loaded, even before main method is called.");
+	}
+	
+	static {
+		System.out.println("Static Block 2. This is executed once, when the class is loaded, even before main method is called.");
 	}
 
 }
